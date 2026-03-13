@@ -1,0 +1,40 @@
+.contact-container{
+    border: 1px solid black;
+    width: 50%;
+    padding: 20px;
+    margin: 100px auto;
+    border-radius: 10px;
+    display: flex;
+   
+}
+input,select,textarea,label{
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+.contact-container form .option input {
+    width: 20px; 
+
+}
+.contact-container h1{
+    text-align: center;
+}
+.contact-container form .radio input{
+    width: 20px;
+}
+input[type="text"], input[type="e-mail"],textarea{
+    height: 40px;
+    border-radius: 5px;
+}
+.option{
+    background-color: gray;
+}
+.radio{
+    background-color: bisque;
+    margin-bottom: 10px;
+
+}
+input[type="submit"]{
+    height: 40px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="iletişim.css">
+</head>
+<body>
+    <div class="contact-container">
+        <form>
+           <h1>DETAYLI İLETİŞİM FORMU</h1> 
+        <label for="name-surname">Name and Surname</label>
+        <input type="text" id="name-surname" name="name-surname" placeholder="name ve surname giriniz">
+
+        <label for="e-mail">E-Mail</label>
+        <input type="e-mail" id="e-mail" name="e-mail" placeholder="e-mail giriniz">
+
+        <label for="topic">Konu</label>
+        <select id="topic" name="topic">
+            <option value="İş">İş teklifi</option>
+            <option value="Soru">Soru</option>
+            <option value="Geri_Bildirim">Geri Bildirim</option>
+        </select>
+        <label for="message">Mesaj</label>
+        <textarea id="message" name="message" placeholder="mesaj giriniz">
+       </textarea>
+      
+
+       <label for="ilgi">İlgi alanı ve yetenekler</label>
+       
+       <div class="radio">
+         <input type="radio" id="iletişim_yolu" name="iletişim_yolu">
+
+        <label for=" iletişim_yolu">iletişim yolu</label>
+        <br>
+        <input type="radio" id="eposta_yolu" name="iletişim_yolu">
+
+        <label for=" eposta_yolu">eposta_yolu</label>
+        
+
+       </div>
+       <div class="option">
+       <input type="checkbox" id="HTML" name="HTML">
+       <label for="HTML">HTML</label>
+
+       <br>
+        <input type="checkbox" id="CSS" name="CSS">
+        <label for="CSS" >CSS</label>
+
+        <br>
+        <input type="checkbox" id="Algoritma" name="Algoritma">
+
+         <label for="Algoritma" >Algoritma</label>
+        
+
+       </div>
+       <input type="submit" id="submit-button" name="submit-button">
+      
+
+         </form>
+        
+    </div>
+    
+</body>
+</html>
